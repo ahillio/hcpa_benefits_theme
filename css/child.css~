@@ -171,12 +171,6 @@ html.js fieldset.collapsed > legend .fieldset-legend { background-image: url(../
 .nontefhwp #header h1 { text-align: center; float: none; margin: 40px auto 0; max-width: 400px; }
 .nontefhwp #header a:nth-child(3) > img { float: none; position: absolute; right: 0; top: 4px; }
 #block-block-11.contextual-links-region { position: inherit; }
-
-@media screen and (max-width: 767px) {
-  #header h1 { text-indent: -999em; width: 0; }
-  #header img { float: left; }
-  h1#page-title { position: absolute; top: -120px; padding-left: 100px; }
-}
 /**
  * 4. Navigation
  */
