@@ -146,14 +146,14 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
   .block-accordion-menu .ui-accordion .ui-accordion-content { padding-bottom: 0; }
   #block-accordion-menu-1, #block-accordion-menu-2 { display: none; }
   #block-accordion-menu-3, #block-accordion-menu-4 { display: block; }
-  .tef .accordion-header-1:before { left: 25px; }
-  .tef .accordion-header-2:before { left: 23px; top: 10px; }
-  .tef .accordion-header-3:before { left: 20px; top: 8px; }
-  .tef .accordion-header-4:before { left: 24px; top: 8px; }
-  .hwp .accordion-header-1:before { left: 20px; top: 7px; }
-  .hwp .accordion-header-2:before { left: 19px; top: 11px; }
-  .hwp .accordion-header-3:before { left: 25px; }
-  .hwp .accordion-header-4:before { left: 24px; top: 11px; }
+  .tef .accordion-header-1:before { left: 25%; }
+  .tef .accordion-header-2:before { left: 25%; top: 10px; }
+  .tef .accordion-header-3:before { left: 25%; top: 8px; }
+  .tef .accordion-header-4:before { left: 25%; top: 8px; }
+  .hwp .accordion-header-1:before { left: 25%; top: 7px; }
+  .hwp .accordion-header-2:before { left: 25%; top: 11px; }
+  .hwp .accordion-header-3:before { left: 25%; }
+  .hwp .accordion-header-4:before { left: 25%; top: 11px; }
   
 
 }
