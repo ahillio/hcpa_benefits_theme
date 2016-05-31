@@ -193,14 +193,14 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
   .block-accordion-menu .ui-accordion .ui-accordion-content { padding-bottom: 0; }
   #block-accordion-menu-1, #block-accordion-menu-2 { display: none; }
   #block-accordion-menu-3, #block-accordion-menu-4 { display: block; margin-bottom: 0; }
-  .tef .accordion-header-1 { background-position: 19px 2px; }
-  .tef .accordion-header-2 { background-position: 16px 8px; }
-  .tef .accordion-header-3 { background-position: 16px 6px; }
-  .tef .accordion-header-4 { background-position: 18px 5px; }
-  .hwp .accordion-header-1 { background-position: 13px 1px; }
-  .hwp .accordion-header-2 { background-position: 13px 7px; }
-  .hwp .accordion-header-3 { background-position: 20px 1px; }
-  .hwp .accordion-header-4 { background-position: 15px 8px; }
+  .tef .accordion-header-1 { background-position: center 2px; }
+  .tef .accordion-header-2 { background-position: center 8px; }
+  .tef .accordion-header-3 { background-position: center 6px; }
+  .tef .accordion-header-4 { background-position: center 5px; }
+  .hwp .accordion-header-1 { background-position: center 1px; }
+  .hwp .accordion-header-2 { background-position: center 7px; }
+  .hwp .accordion-header-3 { background-position: center 1px; }
+  .hwp .accordion-header-4 { background-position: center 8px; }
   #block-views-classes-block-1 { padding-bottom: 120px; }
 
 }
