@@ -39,6 +39,7 @@ Table of contents:
 
 #header-wrapper, #navigation-wrapper, #main-wrapper, #footer-wrapper { padding-top: 10px; padding-bottom: 10px; }
 @media screen and (max-width: 767px) {
+  .tef #main-wrapper, .hwp #main-wrapper { margin-bottom: 90px; }
   .ds-2col-stacked > .group-left, .ds-2col-stacked > .group-right { width: 100% } 
   #footer-wrapper { display: none; }
 }
@@ -57,7 +58,8 @@ body { color: #333; font: 93.75%/1.6em 'Open Sans', sans-serif; }
 
 /* 2.2 Headers */
 h1#site-section-title a, h1#site-section-title a:hover { color: #4E2683; }
-h1#page-title { text-transform: uppercase; color: #8DC63F; font-weight: 600; font-family: 'Open Sans'; }
+h1#page-title, h1#mobile-title { text-transform: uppercase; color: #8DC63F; font-weight: 600; font-family: 'Open Sans'; }
+h1#mobile-title { display: none; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0 0 1em; font-family: 'Open Sans', sans-serif; }
 h1 { font-size: 1.5em; }
 h2 { font-size: 1.2em; }
@@ -145,7 +147,7 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
   #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header .accordion-link, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header .accordion-link { display: block; padding: 0; position: absolute; bottom: 0; font-size: .5em; text-align: center; width: 100%; }
   .sidebar .ui-accordion-content li { font-size: .8em; }
   #block-accordion-menu-3 .content, #block-accordion-menu-4 .content { position: relative; }
-  #block-accordion-menu-4 div.ui-accordion-content-active, #block-accordion-menu-3 div.ui-accordion-content-active { position: absolute; width: 100%; background-color: #E6D8F3; margin-top: -115px; }
+  #block-accordion-menu-4 div.ui-accordion-content-active, #block-accordion-menu-3 div.ui-accordion-content-active { position: absolute; width: 100%; background-color: #E6D8F3; margin-top: -88px; line-height: 1.3em; padding-top: 10px; }
   .hwp #block-accordion-menu-3 div.ui-accordion-content-active { margin-top: -75px; }
   aside#sidebar-first { padding: 0; }
   .block-accordion-menu .ui-accordion .ui-accordion-content { padding-bottom: 0; }
@@ -208,9 +210,12 @@ html.js fieldset.collapsed > legend .fieldset-legend { background-image: url(../
 #block-block-11.contextual-links-region { position: inherit; }
 
 @media screen and (max-width: 767px) {
-  #header h1 { text-indent: -999em; width: 0; }
-  #header img { float: left; }
-  h1#page-title { position: absolute; top: -120px; padding-left: 100px; }
+  .not-front #header { height: auto; margin-top: 5px; }
+  #header h1 { text-indent: -999em; width: 0; height: 0; }
+  .hwp #header img, .tef #header img { float: left; width: 80px; margin-bottom: 6px; }
+  /*h1#page-title { position: absolute; top: -120px; padding-left: 100px; }*/
+  h1#page-title { display: none; }
+  h1#mobile-title { display: block; text-indent: 0; font-size: 1.1em; margin: 10px 0 0 8px; min-width: 200px; }
 }
 /**
  * 4. Navigation
