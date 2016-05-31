@@ -10,6 +10,7 @@
 /* 1.1 jQuery(document).ready() */
 jQuery(document).ready(function($){
 //  $('.entityform input').addClass('populate');
+  $('.field-name-field-files a').attr('target', '_blank');
 });
 
 /* 1.3 jQuery(window).load() */
