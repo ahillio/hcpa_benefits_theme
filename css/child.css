@@ -103,24 +103,55 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
 #block-accordion-menu-1 h3.accordion-header span.accordion-link, #block-accordion-menu-2 h3.accordion-header span.accordion-link { position: relative; top: 16px; }
 
 /* TEF Info */
-.tef .accordion-header-1:before { content:''; display: block; background-image: url(../images/tef.png); position: absolute; top: 5px; left: 7px; width: 32px; height: 40px; background-size: 32px 40px; }
+.tef .accordion-header-1 {
+  background-image: url(../images/tef.png);
+	background-repeat: no-repeat;
+  background-size: 32px 40px;
+}
 /* Classes */
-.tef .accordion-header-2:before { content:''; display: block; background-image: url(../images/calendar.png); position: absolute; top: 2px; left: 2px; width: 36px; height: 36px; background-size: 36px 36px; }
+.tef .accordion-header-2 {
+  background-image: url(../images/calendar.png);
+	background-repeat: no-repeat;
+  background-size: 36px 36px;
+}
 /* Career */
-.tef .accordion-header-3:before { content:''; display: block; background-image: url(../images/guidance.png); position: absolute; top: 15px; width: 40px; height: 40px; background-size: 40px 40px; }
+.tef .accordion-header-3 {
+	background-image: url(../images/guidance.png);
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	}
 /* Tuition */
-.tef .accordion-header-4:before { content:''; display: block; background-image: url(../images/tuition.png); position: absolute; top: 16px; left: 6px; width: 32px; height: 40px; background-size: 32px 40px; }
+.tef .accordion-header-4 {
+	background-image: url(../images/tuition.png);
+	background-repeat: no-repeat;
+	background-size: 32px 40px;
+	}
 
 .hwp .sidebar .ui-accordion .ui-accordion-header .ui-icon { display: none; }
-.hwp .sidebar .ui-accordion .accordion-header-3 .ui-icon { display: block; left: inherit; right: 0; }
 /* HWP About */
-.hwp .accordion-header-1:before { content:''; display: block; background-image: url(../images/hwp.png); position: absolute; top: 2px; width: 40px; height: 38px; background-size: 40px 38px; }
+.hwp .accordion-header-1 {
+	background-image: url(../images/hwp.png);
+	background-repeat: no-repeat;
+	background-size: 40px 38px;
+	}
 /* Eligible */
-.hwp .accordion-header-2:before { content:''; display: block; background-image: url(../images/eligible.png); position: absolute; top: 5px; width: 40px; height: 31px; background-size: 40px 31px; }
+.hwp .accordion-header-2 {
+	background-image: url(../images/eligible.png);
+	background-repeat: no-repeat;
+	background-size: 40px 31px;
+}
 /* Forms */
-.hwp .accordion-header-3:before { content:''; display: block; background-image: url(../images/forms.png); position: absolute; top: 6px; left: 6px; width: 29px; height: 40px; background-size: 29px 40px; }
+.hwp .accordion-header-3 {
+	background-image: url(../images/forms.png);
+	background-repeat: no-repeat;
+	background-size: 29px 40px;
+}
 /* FAQ */
-.hwp .accordion-header-4:before { content:''; display: block; background-image: url(../images/info.png); position: absolute; top: 7px; left: 4px; width: 32px; height: 32px; background-size: 32px 32px; }
+.hwp .accordion-header-4 {
+	background-image: url(../images/info.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
 
 .sidebar .ui-state-default .ui-icon { background-image: url(../images/darrow.png); background-position: 0 0; background-size: 15px; }
 .sidebar .ui-state-active .ui-icon { background-image: url(../images/darrow-h.png); background-position: 0 0; background-size: 15px; }
@@ -144,7 +175,16 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
   #block-block-14, #block-block-10 { display: none; }
   #block-accordion-menu-4 .ui-accordion h3.ui-accordion-header, #block-accordion-menu-3 .ui-accordion h3.ui-accordion-header { width: 25%; float: left; height: 80px; }
   .hwp .sidebar .ui-accordion h3.ui-accordion-header { height: 65px; }
-  #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header .accordion-link, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header .accordion-link { display: block; padding: 0; position: absolute; bottom: 0; font-size: .5em; text-align: center; width: 100%; }
+  #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-4 .ui-accordion-icons .ui-accordion-header .accordion-link, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header a, #block-accordion-menu-3 .ui-accordion-icons .ui-accordion-header .accordion-link {
+    display: block;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: .5em;
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+	}
   .sidebar .ui-accordion-content li { font-size: .8em; }
   #block-accordion-menu-3 .content, #block-accordion-menu-4 .content { position: relative; }
   #block-accordion-menu-4 div.ui-accordion-content-active, #block-accordion-menu-3 div.ui-accordion-content-active { position: absolute; width: 100%; background-color: #E6D8F3; margin-top: -88px; line-height: 1.3em; padding-top: 10px; }
@@ -153,14 +193,14 @@ h3.accordion-header { text-transform: uppercase; height: 50px; margin-bottom: 15
   .block-accordion-menu .ui-accordion .ui-accordion-content { padding-bottom: 0; }
   #block-accordion-menu-1, #block-accordion-menu-2 { display: none; }
   #block-accordion-menu-3, #block-accordion-menu-4 { display: block; margin-bottom: 0; }
-  .tef .accordion-header-1:before { left: 25%; }
-  .tef .accordion-header-2:before { left: 25%; top: 10px; }
-  .tef .accordion-header-3:before { left: 25%; top: 8px; }
-  .tef .accordion-header-4:before { left: 25%; top: 8px; }
-  .hwp .accordion-header-1:before { left: 25%; top: 7px; }
-  .hwp .accordion-header-2:before { left: 25%; top: 11px; }
-  .hwp .accordion-header-3:before { left: 25%; }
-  .hwp .accordion-header-4:before { left: 25%; top: 11px; }
+  .tef .accordion-header-1 { background-position: 19px 2px; }
+  .tef .accordion-header-2 { background-position: 16px 8px; }
+  .tef .accordion-header-3 { background-position: 16px 6px; }
+  .tef .accordion-header-4 { background-position: 18px 5px; }
+  .hwp .accordion-header-1 { background-position: 13px 1px; }
+  .hwp .accordion-header-2 { background-position: 13px 7px; }
+  .hwp .accordion-header-3 { background-position: 20px 1px; }
+  .hwp .accordion-header-4 { background-position: 15px 8px; }
   #block-views-classes-block-1 { padding-bottom: 120px; }
 
 }
