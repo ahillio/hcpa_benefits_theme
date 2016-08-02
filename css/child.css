@@ -389,14 +389,14 @@ html.js fieldset.collapsed > legend .fieldset-legend { background-image: url(../
 .front .ds-2col > .group-right { width: 556px; } 
 .front .field-name-title a, .front .field-name-title span { color: #8DC63F; }
 @media screen and (min-width: 768px) {
-.front .view-stories .field-name-body p { max-height: 186px; overflow: hidden; padding-top: 20px; }
+.front .view-stories .field-name-body p { max-height: 215px; overflow: hidden; padding-top: 20px; }
 .front .field-name-title { line-height: 1.1em; font-size: 1.1em; }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
 .front .col-sm-4 { padding-right: 0; }
 }
 @media screen and (min-width: 992px) {
-.front .view-stories .field-name-body p { max-height: 279px; font-size: 1.3em; padding: 20px; }
+.front .view-stories .field-name-body p { max-height: 284px; font-size: 1.3em; padding: 20px; }
 .front .field-name-title { font-size: 1.2em; line-height: 1.3em; }
 }
 
