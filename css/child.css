@@ -410,7 +410,7 @@ html.js fieldset.collapsed > legend .fieldset-legend { background-image: url(../
 #prefooter1 .block .content ul li a { outline: 0; }
 #prefooter1 .block .content ul li:first-child a { background: url(../images/learn.png) no-repeat; }
 #prefooter1 .block .content ul li:nth-child(2) a { background: url(../images/contact.png) no-repeat; }
-#prefooter1 .content a { color: white; background-size: 30px !important; display: inline-block; text-indent: 40px; }
+#prefooter1 ul.buttons a { color: white; background-size: 30px !important; display: inline-block; text-indent: 40px; }
 
 #block-block-1 { background-color: #E4DEEC; }
 #block-block-1 .content ul { margin: 0; clear: both; background-color: #4E2683; }
@@ -421,6 +421,11 @@ html.js fieldset.collapsed > legend .fieldset-legend { background-image: url(../
   #block-block-1 img { width: 100px; margin: 10px; }
   #block-block-2 img { width: 105px; margin: 20px 10px 10px 10px; }
   #prefooter1 .content ul li { margin-left: 20px; }
+  .front #prefooter1 .block { margin-bottom: 20px; }
+  #prefooter1-wrapper {
+    border-bottom: solid 7px #4E2683;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 340px) {
   #prefooter1 .content ul li { margin-left: 10px; }
